@@ -7,5 +7,4 @@ MAINTAINER jgilley@chegg.com
 # install the fake sqs gem without docs
 RUN	apk --update --no-cache add \
 	--virtual .basic_ruby ruby ruby-bundler && \
-	rm -rf /var/cache/apk/* && \
-	update-ca-certificates
+	rm -rf /var/cache/apk/*
