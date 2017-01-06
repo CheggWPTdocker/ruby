@@ -1,4 +1,4 @@
-FROM cheggwpt/alpine:3.4
+FROM cheggwpt/alpine:3.5
 
 # install ruby basic packages
 # clean up the apk cache (no-cache still caches the indexes)
